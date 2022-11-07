@@ -9,33 +9,33 @@ body {
 
 h1{
   font-family: 'Anton', cursive;
-  font-size: 30px;
+  font-size: 2em;
   color: white;
   text-align: center;
-  margin: 50px;
+  margin: 2rem;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 0.4em;
 }
 
 th{
   background-color: gray;
   text-align: center;
-  height: 50px;
-  border-radius: 4px;
+  height: 0.5em;
+  border-radius: 0.04em;
 }
 
 td{
   color: black;
   text-align: center;
-  height: 50px;
-  border-radius: 4px;
+  height: 0.5em;
+  border-radius: 0.04em;
 }
 
 img{
-  max-height: 250px;
-  max-width: 300px;
+  max-height: 25em;
+  max-width: 30em;
   outline-color: white;
-  outline-width: 2px;
+  outline-width: 0.02em;
 }
 
 ul li{
@@ -43,7 +43,7 @@ ul li{
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 0.3em;
 }
 
 #main-navbar{
