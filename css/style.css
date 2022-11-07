@@ -7,6 +7,10 @@ body {
   position:relative;
 }
 
+p{
+  padding: 1em;
+}
+
 h1{
   font-family: 'Anton', cursive;
   font-size: 2em;
