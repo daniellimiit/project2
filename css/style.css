@@ -39,71 +39,75 @@ img{
 }
 
 ul li{
-list-style-type: none;
+  list-style-type: none;
+}
+
+section {
+  margin-bottom: 30px;
 }
 
 #main-navbar{
-background-color: black;
-overflow: hidden;
+  background-color: black;
+  overflow: hidden;
 }
 
 #navbar-container{
-float: left;
-width: 100%;
-position: fixed;
+  float: left;
+  width: 100%;
+  position: fixed;
 }
 
 #main-navbar ul{
-list-style-type: none;
-margin: 0;
-padding: 0;
-position: fixed;
-left: 50%;
-float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  left: 50%;
+  float: left;
 }
 
 #main-navbar ul li{
-float: left;
-position: relative;
-right: 50%;
-display: block;
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
 }
 
 #main-navbar ul li a{
-display: block;
-padding: 10px 20px;
-color: orange;
-background-color: #000000;
-text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  color: orange;
+  background-color: #000000;
+  text-decoration: none;
 }
 
 #main-navbar ul li a:hover{
-background-color: brown;
-text-decoration: underline;
+  background-color: brown;
+  text-decoration: underline;
 }
 
 #sidebar-container{
-position: fixed;
-right: 1%;
-background-color: black;
-height: 80%;
-width: 12%;
-float: right;
+  position: fixed;
+  right: 1%;
+  background-color: black;
+  height: 80%;
+  width: 12%;
+  float: right;
 }
 
 #sidebar ul{
-list-style-type: none;
-text-align: center;
-padding: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 
 #sidebar ul li a{
-display: block;
-padding: 15px 0;
-color: #fff;
-text-decoration: none;
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
 }
 
 #sidebar ul li a:hover{
-background-color: #000;
+  background-color: #000;
 }
