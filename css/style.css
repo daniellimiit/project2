@@ -4,11 +4,12 @@ body{
   font-family: sans-serif;
   color: white;
   text-align: center;
+	position:relative;
 }
 
 h1{
   font-family: 'Anton', cursive;
-  font-size: 100px;
+  font-size: 30px;
   color: white;
   text-align: center;
   margin: 50px;
@@ -49,14 +50,14 @@ overflow: hidden;
 #navbar-container{
 float: left;
 width: 100%;
-position: relative;
+position: fixed;
 }
 
 #main-navbar ul{
 list-style-type: none;
 margin: 0;
 padding: 0;
-position: relative;
+position: fixed;
 left: 50%;
 float: left;
 }
@@ -72,6 +73,7 @@ display: block;
 display: block;
 padding: 10px 20px;
 color: orange;
+background-color: #000000;
 text-decoration: none;
 }
 
@@ -86,6 +88,7 @@ right: 1%;
 background-color: black;
 height: 80%;
 width: 12%;
+float: right;
 }
 
 #sidebar ul{
